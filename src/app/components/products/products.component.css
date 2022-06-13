@@ -35,7 +35,7 @@ background-image: url(/src/assets/image/60a7680bee726.png);
   align-items: center;
 background-position: center;
 background-repeat: no-repeat;
-  background: url(/src/assets/image/60a7680bee726.png);
+  background: url('/src/assets/image/60a7680bee726.png') !important;
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -48,9 +48,10 @@ background-repeat: no-repeat;
   --dark: hsl(var(--hue), 25%, 10%);
   --grey: hsl(0, 0%, 50%);
 
-  width: 310px;
-  height: 500px;
+  width: 250px;
+  height: 400px;
   margin: 40px;
+  
 
   perspective: 1000px;
 }
@@ -63,6 +64,7 @@ background-repeat: no-repeat;
   position: relative;
   transform-style: preserve-3d;
   transition: .6s .1s;
+  
 }
 
 /* hover and focus-within states */
@@ -85,6 +87,7 @@ background-repeat: no-repeat;
   overflow: hidden;
 
   backface-visibility: hidden;
+  
 
   display: flex;
   justify-content: center;
