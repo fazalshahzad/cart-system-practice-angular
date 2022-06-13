@@ -59,3 +59,54 @@ left: 20px;
 
 
 
+#hero{
+    background-image: url("../../../assets/image/slider4-919182l-109639_l.jpg");
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+#hero h2{
+    padding-left: 30px;
+}
+#hero p{
+    padding-left: 30px;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+#hero h1{
+color: #088178;
+padding-left: 30px;
+}
+#hero a button{
+   
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 60px;
+}
+#hero a button:hover{
+    color: red;
+    background-color: transparent;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
